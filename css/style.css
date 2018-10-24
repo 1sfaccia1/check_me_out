@@ -5,7 +5,7 @@
 }
 
 #header {
-   background-image: linear-gradient(-90deg, red, yellow);
+  background-image: linear-gradient(-90deg, red, yellow);
   height: 75px;
   padding: 0px;
   display: flex;
@@ -23,13 +23,17 @@
 }
 
 #nav-bar {
-  display: inline-block;
+  display: block;
+  margin-left: 50%;
 }
 
 a {
   text-decoration: none;
   margin: 0px 10px;
-  color: #bc0024;
+  color: darkblue;
+  text-shadow: 2px 2px 5px #fffdfc;
+
+
 }
 
 a:hover {
@@ -65,19 +69,19 @@ p {
 }
 
 #page2 {
-    background-image: linear-gradient(#000, #0be0d6);
+  background-image: linear-gradient(#000, #0be0d6);
 }
-
 
 #leed {
   text-align: center;
   padding-top: 30px;
   margin-left: 25px;
   color: #bc0024;
+
 }
 
 #closeUp {
-  background-image: linear-gradient(#0be0d6,#000);
+  background-image: linear-gradient(#0be0d6, #000);
   box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.87);
   border-radius: 5px;
   padding: 20px;
@@ -89,9 +93,9 @@ p {
 }
 
 #leed h2 {
-   font-size: 50px;
-   margin-top: 50px;
-    text-shadow: 2px 2px 5px #000;
+  font-size: 50px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 5px #000;
 }
 
 #closeUp p {
@@ -108,34 +112,32 @@ p {
 }
 
 #page3 {
- background-image: linear-gradient(#0be0d6, yellow);
+  background-image: linear-gradient(#0be0d6, #ffff00);
   color: rgb(255, 255, 255);
 }
 
 #discription {
-width: 60%;
-margin: 10% auto;
-padding: 0 20px;
-float: left;
-display: block;
-box-sizing: border-box;
-
+  width: 60%;
+  margin: 10% auto;
+  padding: 0 20px;
+  float: left;
+  display: block;
+  box-sizing: border-box;
 }
-#discription h1{
+
+#discription h1 {
   text-align: center;
   margin-bottom: 1.6em;
   color: #fafaf6;
   text-shadow: 2px 2px 5px red;
 }
 
-#discription h3{
+#discription h3 {
   color: #fafaf6;
   text-shadow: 2px 2px 5px red;
 }
 
-
-
-#video{
+#video {
   width: 40%;
   margin: 5% auto;
   padding: 1.6em;
@@ -144,16 +146,13 @@ box-sizing: border-box;
   box-sizing: border-box;
 }
 
-#video iframe{
+#video iframe {
   box-shadow: 0px 5px 30px rgba(255, 0, 0, 0.87);
   border: 1px solid #000;
 }
 
-
-
 #page4 {
-  background-image: linear-gradient(yellow, #000);
-
+  background-image: linear-gradient(#ffff00, #000);
   height: 100vh;
 }
 
@@ -165,23 +164,66 @@ box-sizing: border-box;
 }
 
 #form {
-  background-image: linear-gradient(#0be0d6, yellow, #000);
+  background-image: linear-gradient(#0be0d6, #ffff00, #000);
   height: 100%;
   padding: 25px;
   border-style: double;
   box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.87);
+  color: #bc0024;
 }
 
-#form input {
-  height: 25px;
-  width: 100%;
-  margin: 5px auto;
+#form input[type="text"], input[type="email"] {
+  height: 2.5em;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-radius: 7px;
+  background-image: linear-gradient(#1ba3cc, #f1fd0f);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #000;
+}
+
+#form textarea {
+  height: 8em;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 0 20px;
+  border-radius: 7px;
+  background-image: linear-gradient(#1ba3cc, #f1fd0f);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #000;
+}
+
+#form input[type="submit"] {
+  width: 30%;
+  height: 2.5em;
+  float: right;
+  margin-right: 10%;
+  border-radius: 7px;
+  background-image: linear-gradient(#1ba3cc, #f1fd0f);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #000;
+  cursor: pointer;
 }
 
 #form h3 {
+  font-size: 2em;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: .8em;
+  color: #bc0024;
+  text-shadow: 2px 2px 5px #000;
 }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
+
 
 footer {
   background-color: #000;
