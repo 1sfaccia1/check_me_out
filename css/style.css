@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+   background-image: linear-gradient(-90deg, red, yellow);
+  height: 75px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid rgb(92, 0, 97);
+  overflow: hidden;
+}
+
+#logo {
+  margin-left: 0px;
+  height: 100%;
+  float: left;
+}
+
+#nav-bar {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: #bc0024;
+}
+
+a:hover {
+  color: rgb(235, 240, 1);
+  font-weight: bold;
+}
+
+.container {
+  height: 100vh;
+}
+
+p {
+  padding: 10px;
+}
+
+#page1 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  background-image: url('../canon landing page img/canon_img.jpg');
+}
+
+#page1 h1 {
+  font-size: 100px;
+  color: rgb(250, 250, 250);
+  text-shadow: 1px 1px 2px black, 0 0 75px blue, 0 0 25px darkblue;
+}
+
+#page2 {
+    background-image: linear-gradient(#000, #0be0d6);
+}
+
+
+#leed {
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 25px;
+  color: #bc0024;
+}
+
+#closeUp {
+  background-image: linear-gradient(#0be0d6,#000);
+  box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.87);
+  border-radius: 5px;
+  padding: 20px;
+  /* border: 3px solid red; */
+  margin: 100px auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+#leed h2 {
+   font-size: 50px;
+   margin-top: 50px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#closeUp p {
+  display: flex;
+  width: 50%;
+  margin-top: 25px;
+  padding: 10px;
+  color: #fafaf6;
+  text-shadow: 2px 2px 5px red;
+}
+
+#closeUp img {
+  float: right;
+}
+
+#page3 {
+ background-image: linear-gradient(#0be0d6, yellow);
+  color: rgb(255, 255, 255);
+}
+
+#discription {
+width: 60%;
+margin: 10% auto;
+padding: 0 20px;
+float: left;
+display: block;
+box-sizing: border-box;
+
+}
+#discription h1{
+  text-align: center;
+  margin-bottom: 1.6em;
+  color: #fafaf6;
+  text-shadow: 2px 2px 5px red;
+}
+
+#discription h3{
+  color: #fafaf6;
+  text-shadow: 2px 2px 5px red;
+}
+
+
+
+#video{
+  width: 40%;
+  margin: 5% auto;
+  padding: 1.6em;
+  float: right;
+  display: block;
+  box-sizing: border-box;
+}
+
+#video iframe{
+  box-shadow: 0px 5px 30px rgba(255, 0, 0, 0.87);
+  border: 1px solid #000;
+}
+
+
+
+#page4 {
+  background-image: linear-gradient(yellow, #000);
+
+  height: 100vh;
+}
+
+.wrapper {
+  height: 600px;
+  padding-top: 150px;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+#form {
+  background-image: linear-gradient(#0be0d6, yellow, #000);
+  height: 100%;
+  padding: 25px;
+  border-style: double;
+  box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.87);
+}
+
+#form input {
+  height: 25px;
+  width: 100%;
+  margin: 5px auto;
+}
+
+#form h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000;
+  height: 50px;
+  text-align: center;
+  /* FIXME: how do i get rid of the space at the bottom????? */
+}
+
+#Copyright {
+  padding-top: 15px;
+  color: rgb(255, 255, 255);
+}
