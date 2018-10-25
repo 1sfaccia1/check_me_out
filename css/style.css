@@ -215,10 +215,8 @@ p {
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: red;
   opacity: 1;
-  /* Firefox */
 }
 
 footer {
