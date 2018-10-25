@@ -4,27 +4,28 @@
   box-sizing: border-box;
 }
 
-#header {
+header {
   background-image: linear-gradient(-90deg, red, yellow);
-  height: 75px;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  position: fixed;
+  max-height: 75px;
   width: 100%;
+  position: fixed;
   border-bottom: 2px solid rgb(92, 0, 97);
   overflow: hidden;
 }
 
 #logo {
-  margin-left: 0px;
   height: 100%;
   float: left;
+
+}
+#logo img {
+  height: ;
 }
 
 #nav-bar {
-  display: block;
-  margin-left: 50%;
+  height: 100%;
+  float: right;
+  padding: 20px 0;
 }
 
 a {
@@ -38,11 +39,14 @@ a {
 
 a:hover {
   color: rgb(235, 240, 1);
-  font-weight: bold;
+
 }
 
 .container {
-  height: 100vh;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
 }
 
 p {
@@ -50,6 +54,7 @@ p {
 }
 
 #page1 {
+  height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,6 +74,8 @@ p {
 }
 
 #page2 {
+  height: 100vh;
+
   background-image: linear-gradient(#000, #0be0d6);
 }
 
@@ -114,6 +121,8 @@ p {
 #page3 {
   background-image: linear-gradient(#0be0d6, #ffff00);
   color: rgb(255, 255, 255);
+  height: 100vh;
+
 }
 
 #discription {
