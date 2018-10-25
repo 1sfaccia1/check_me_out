@@ -16,10 +16,6 @@ header {
 #logo {
   height: 100%;
   float: left;
-
-}
-#logo img {
-  height: ;
 }
 
 #nav-bar {
@@ -33,20 +29,16 @@ a {
   margin: 0px 10px;
   color: darkblue;
   text-shadow: 2px 2px 5px #fffdfc;
-
-
 }
 
 a:hover {
   color: rgb(235, 240, 1);
-
 }
 
 .container {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-
 }
 
 p {
@@ -75,7 +67,6 @@ p {
 
 #page2 {
   height: 100vh;
-
   background-image: linear-gradient(#000, #0be0d6);
 }
 
@@ -84,7 +75,6 @@ p {
   padding-top: 30px;
   margin-left: 25px;
   color: #bc0024;
-
 }
 
 #closeUp {
@@ -122,7 +112,6 @@ p {
   background-image: linear-gradient(#0be0d6, #ffff00);
   color: rgb(255, 255, 255);
   height: 100vh;
-
 }
 
 #discription {
@@ -231,8 +220,6 @@ p {
   opacity: 1;
   /* Firefox */
 }
-
-
 
 footer {
   background-color: #000;
