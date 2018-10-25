@@ -21,14 +21,14 @@ header {
 #nav-bar {
   height: 100%;
   float: right;
-  padding: 20px 0;
+  margin: 25px 0;
 }
 
 a {
   text-decoration: none;
-  margin: 0px 10px;
   color: darkblue;
   text-shadow: 2px 2px 5px #fffdfc;
+  margin: 0 15px;
 }
 
 a:hover {
