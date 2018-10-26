@@ -24,6 +24,11 @@ header {
   margin: 25px 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: darkblue;
@@ -223,7 +228,7 @@ footer {
   background-color: #000;
   height: 50px;
   text-align: center;
-  /* FIXME: how do i get rid of the space at the bottom????? */
+
 }
 
 #Copyright {
